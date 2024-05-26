@@ -1,3 +1,43 @@
+# Invoice Application
+
+## Description
+A responsive web application for creating and managing invoices using React and React-PDF.
+
+## Prerequisites
+- Node.js
+- npm or yarn
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+Navigate to the project directory:
+
+cd <project_directory>
+
+npm install
+Or if you are using yarn:
+
+yarn install
+
+Usage
+
+Start the development server:
+
+npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
