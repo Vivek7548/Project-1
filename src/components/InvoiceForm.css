@@ -1,0 +1,89 @@
+/* InvoiceForm.css */
+
+
+/* Container styling */
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Fieldset styling */
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+
+/* Legend styling */
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+/* Input styling */
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: black;
+}
+
+
+/* Button styling */
+
+button[type="button"],
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/* Total section styling */
+
+fieldset:last-of-type {
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding-top: 20px;
+}
+
+
+/* Total section input styling */
+
+fieldset:last-of-type input {
+    width: calc(50% - 5px);
+}
+
+
+/* Total section div styling */
+
+fieldset:last-of-type div {
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
